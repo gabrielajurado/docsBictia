@@ -1,0 +1,186 @@
+body{
+    font-family: 'Dosis', 'Times New Roman', Times, serif; 
+}
+/*ACA EMPIEZA NUESTRA LISTA DE MENU*/
+
+.header{
+background-color:black;
+height: 80px;
+}
+.nav{
+    padding-top: 1px;
+    padding-bottom: -30px;
+    height: 40px;
+    width: 500px;
+    margin: auto;
+    float: right;
+}
+
+.ulMenu{
+float: cen;
+}
+
+.liMenu{   
+    list-style: none;
+    float: left;
+    margin: 0 20px;  
+}
+.aMenu{
+    text-decoration: none;
+    display: block;
+    border: 1px solid white;
+    padding: 5px 3px ;
+    border-radius: 3px 3px;
+    color: white;
+}
+
+.aMenu:hover{
+    color: blue;
+    background-color: (rgb 184,95,0);
+}  
+    
+/*titulo*/
+
+.title{
+    text-align: center;
+    margin: 15px 0 40px;
+    color: black;
+    font-size: 48px;
+}
+.titleGaleria{
+    text-align: center;
+    margin: 15px 0 40px;
+    color: black;
+    font-size: 48px;
+}
+
+/*Imagenes*/
+
+.portada {
+    width: 80%;
+    display: block;
+    margin: 50px 140px;    
+}
+.portada:hover{
+    box-shadow: 0 0 8px black;
+    transform: scale(1.1);
+    transition: all 2s ease-in-out;
+}
+
+.imgGaleria{
+    width: 280px;
+    height: 300px;
+    }
+.imgGaleria:hover{
+    box-shadow: 0 0 8px black;
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+
+
+}
+
+/*textos*/
+
+.contenedorTexto{
+    position: relative;
+    padding: 20px 0 50px;
+    height: 150px;
+}
+
+.textArtista{
+    width: 45%;
+    float: left;
+    text-align: justify;
+    margin: 5px 35px 5px 25px;
+}
+.textArtistaGaleria{
+    position: relative;
+    width: 30%;
+    float: left;
+    margin: 0 5px 5px 60px;
+}
+
+.subtitulos{
+    text-align: center;
+}
+
+/*footer*/
+
+.footer {
+    position: relative;
+    text-align: center;
+    background-color: black;
+    padding: 3px 3px 140px 3px;
+}
+
+.contColsFooter {margin: auto;
+    width: 700px;
+    margin-bottom: 30px;
+    margin: auto;
+}
+
+.contactTitle {
+    text-align: center;
+    color: wheat;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.colsFooter {
+    width: 40%;
+    float: left;
+    margin-top: 3px;
+}
+
+.colsFooter a {
+    display: block;
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.colsFooter p {
+    font-weight: 300;
+}
+
+.colsFooter a,
+.colsFooter p {
+    color: white;
+    text-align: center;
+}
+
+.colsFooter a:hover {
+    color: wheat;
+}
+
+/*tabla*/
+.table {
+    margin: 30px auto;
+    /* border: 1px solid rgb(138, 101, 22);
+    border-collapse: collapse;*/
+    width: 75%; 
+}
+
+.table th,
+.table td {
+    /* border: 1px solid rgb(138, 101, 22); */
+    padding: 10px;
+    text-align: center;
+}
+
+.boldLetter {
+    font-weight: bold;
+}
+
+.table tr:hover {
+    background-color: lightgray;
+}
+
+.titleGaleria:hover{
+   background-color:goldenrod ;
+   
+}
+
+
+
+

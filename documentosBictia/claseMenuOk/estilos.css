@@ -1,0 +1,115 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+	box-shadow: 0 2px 8px #333;
+	display: flex;
+	align-items: center;
+}
+
+.hamburguer {
+	width: 90%;
+}
+
+.picMenu {
+	width: 32px;
+	cursor: pointer;
+	background-image: url(./logo.png);
+}
+
+.contHamburguerMenu,
+.hamburguerCheck {
+	display: none;
+}
+
+.contMenu {
+	display: flex;
+	justify-content: flex-end;
+	padding: 10px 0;
+}
+
+.itemMenu {
+	list-style: none;
+	margin: 0 30px;
+	border-right: 1px solid #dbdbdb;
+}
+
+.linkMen {
+	text-decoration: none;
+	display: block;
+	padding: 15px 10px;
+	color: #333;
+}
+
+.logo {
+	width: 100px;
+}
+
+/* .prueba {
+	margin: 50px auto;
+	background-image: url(./logo.png);
+	width: 100px;
+	height: 100px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	transition: all 1s ease-in-out;
+}
+.prueba:hover::before {
+	content: 'Hola';
+	margin-top: 50px;
+	margin-right: 50px;
+}
+.prueba:hover {
+	background-image: url(./menu-white.png); */
+/* } */
+/* .prueba:hover {
+	transition: all 1s ease-in-out;
+	background-image: url(./menu.png);
+} */
+
+@media screen and (max-width: 768px) {
+	.contHamburguerMenu {
+		display: block;
+		padding: 10px 0;
+	}
+
+	.contMenu {
+		flex-direction: column;
+		box-shadow: 0 2px 4px gray;
+		transform: translateX(-110%);
+		transition: all 0.3s ease-in-out;
+	}
+
+	.hamburguerCheck:checked + .contMenu {
+		margin-left: 50px;
+		transform: translateX(0);
+	}
+
+	.itemMenu {
+		border-right: none;
+		border-bottom: 1px solid #dbdbdb;
+	}
+
+	.picMenu {
+		margin-left: 40px;
+	}
+
+	.nav {
+		box-shadow: none;
+		align-items: flex-start;
+	}
+
+	.logo {
+		order: 2;
+		margin-right: 40px;
+	}
+}
